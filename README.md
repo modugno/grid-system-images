@@ -1,2 +1,2 @@
-# grid-system-images
-Grid System Images with Column
+# Grid System
+Grid System with CSS Column
