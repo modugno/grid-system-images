@@ -22,8 +22,8 @@
 .grid li { margin-bottom: -0.313em; }
 
 .grid img {
-	width: 100% !important;
-	height: auto !important;
+	width: 100%;
+	height: auto;
 }
 
 @media (min-width: 550px) {
