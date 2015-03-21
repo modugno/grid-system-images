@@ -21,7 +21,34 @@
 
 .grid li { margin-bottom: -0.313em; }
 
-.grid img {
+.grid li a { display: inline-block; }
+
+.grid li a figure { position: relative; }
+
+.grid li a figure figcaption {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  z-index: 1;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.grid li:hover a figure figcaption,
+.grid li:focus a figure figcaption {
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.grid figure img {
 	width: 100%;
 	height: auto;
 }
