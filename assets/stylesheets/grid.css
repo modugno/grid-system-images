@@ -7,6 +7,7 @@
 
 *::before, *::after { box-sizing: inherit; }
 
+html, body { height: 100%; }
 /* Grid CSS Columns*/
 .grid {
   padding: 0;
