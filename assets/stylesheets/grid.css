@@ -1,22 +1,3 @@
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*::before, *::after { box-sizing: inherit; }
-
-html, body { height: 100%; }
-
-body {
-  font-family: sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Grid CSS Columns*/
 .grid {
   padding: 0;
   list-style: none;
