@@ -11,11 +11,9 @@
 
 .grid li { margin-bottom: -0.313em; }
 
-.grid li a { display: inline-block; }
+.grid li figure { position: relative; }
 
-.grid li a figure { position: relative; }
-
-.grid li a figure figcaption {
+.grid li figure figcaption {
   position: absolute;
   bottom: 15px;
   left: 10px;
@@ -26,12 +24,12 @@
   background-color: rgba(0,0,0,.7);
   border-radius: 2px;
   opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
-.grid li:hover a figure figcaption,
-.grid li:focus a figure figcaption {
+.grid li:hover figure figcaption,
+.grid li:focus figure figcaption {
   opacity: 1;
   -webkit-transition: all .5s;
   transition: all .5s;
